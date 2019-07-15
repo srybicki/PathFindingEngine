@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="PathFinding.cpp" />
+    <ClCompile Include="MapData.cpp" />
+    <ClCompile Include="SearchAStar.cpp" />
+    <ClCompile Include="SearchBreadthFirst.cpp" />
+    <ClCompile Include="SearchFactory.cpp" />
+    <ClCompile Include="SearchUtility.cpp" />
+    <ClCompile Include="Button.cpp" />
+    <ClCompile Include="CameraManager.cpp" />
+    <ClCompile Include="MathUtility.cpp" />
+    <ClCompile Include="Node.cpp" />
+    <ClCompile Include="Tank.cpp" />
+    <ClCompile Include="MapView.cpp" />
+    <ClCompile Include="SearchDepthFirst.cpp" />
+    <ClCompile Include="SearchBestFirst.cpp" />
+    <ClCompile Include="SearchDijkstras.cpp" />
+    <ClCompile Include="SkyBox.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Headers\Button.hpp" />
+    <ClInclude Include="Headers\CameraManager.hpp" />
+    <ClInclude Include="Headers\CMatrix4x4cut.hpp" />
+    <ClInclude Include="Headers\CVector3cut.hpp" />
+    <ClInclude Include="Headers\Definitions.hpp" />
+    <ClInclude Include="Headers\MapData.hpp" />
+    <ClInclude Include="Headers\MapView.hpp" />
+    <ClInclude Include="Headers\MathUtility.hpp" />
+    <ClInclude Include="Headers\Node.hpp" />
+    <ClInclude Include="Headers\Search.hpp" />
+    <ClInclude Include="Headers\SearchAStar.hpp" />
+    <ClInclude Include="Headers\SearchBestFirst.hpp" />
+    <ClInclude Include="Headers\SearchBreadthFirst.hpp" />
+    <ClInclude Include="Headers\SearchDepthFirst.hpp" />
+    <ClInclude Include="Headers\SearchDijkstras.hpp" />
+    <ClInclude Include="Headers\SearchFactory.hpp" />
+    <ClInclude Include="Headers\SearchUtility.hpp" />
+    <ClInclude Include="Headers\SkyBox.hpp" />
+    <ClInclude Include="Headers\Tank.hpp" />
+  </ItemGroup>
+</Project>
